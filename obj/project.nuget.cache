@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eZNVQQTXUd5QW047iTHg+7qqh8aXa929crjIVb2tUPjnrX+2ucB9kpZlgNuSHSmSHaE5MKR9fOeYjaISku2Gcw==",
+  "dgSpecHash": "KQ+3b89akJkcD9Hmq1Blb07aLANAFdbmGyijBgla2Nij8lXnT6+afp8vRxsEoTvjD5d80vcAOV9j8VwLm3U8jA==",
   "success": true,
-  "projectFilePath": "/home/marcie/mine/MvcMovie/MvcMovie.csproj",
+  "projectFilePath": "C:\\Users\\Paul\\source\\repos\\payment\\MvcMovie.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
