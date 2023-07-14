@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Payment.Models
 
 {
@@ -6,7 +9,7 @@ namespace Payment.Models
     {
 
 
-        public int Rem_Id { get; set; }
+        public int Id { get; set; }
         public string? Rem_Name { get; set; }
         public int Rem_Phone { get; set; }
         public int Rem_ID_NO { get; set; }

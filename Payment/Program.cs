@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Payment.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<PaymentContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PaymentContext") ?? throw new InvalidOperationException("Connection string 'PaymentContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
